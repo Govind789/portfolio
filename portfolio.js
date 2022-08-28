@@ -147,7 +147,7 @@ function showAbout(){
             content: "\f0c9";
         }
     }
-    @media  (max-width: 706px)
+    @media  (max-width: 706px){
         .section-div-one {
             padding: 120px 0% 165px 0px;
         }
