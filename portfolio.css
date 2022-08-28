@@ -89,8 +89,14 @@ section{
     .header-div-one ul li a{
         font-size: 16px;
     };
+    .fa-bars:before {
+        content: "\f0c9";
+    };
 }
 @media  (max-width: 706px) {
+    .fa-bars:before {
+        content: "\f0c9";
+    }
     .checkbtn{
         display: block;
         background-color: black;
