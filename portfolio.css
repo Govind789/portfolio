@@ -3,7 +3,6 @@
     padding: 0;
     align-items: center;
     color: white;
-    /* background-color:; */
 }
 
 body{
@@ -51,10 +50,7 @@ body{
     cursor: pointer;
     margin: 0 26px;
 }
-/* .context:link,
-.context:visited{
-    color: aqua;
-} */
+
 a.active,a:hover{
     background: none;
     color: #e67e22;
@@ -66,16 +62,13 @@ section{
     max-width: fit-content;
 }
 
-/* .contact{ */
-    /* float: right; */
-    /* text-align: right; */
 
 .section-div-one {
-    padding: 120px 29% 165px 0px;
+    padding: 120px 44% 165px 0px;
 }  
 .section-div-one h3{
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 2vw;
+    font-size: 7vw;
     font-weight: 500;
     margin-bottom: 30px;
 }
@@ -86,7 +79,6 @@ section{
      margin-bottom: 30px;
 }
 .section-div-one p{
-    /* font-family: 'Radio Canada', sans-serif; */
     font-size: 130%;
     font-weight: 400;
     margin-bottom: 20px;
@@ -140,7 +132,7 @@ section{
     }
     .section-div-one h3 {
         font-family: 'Roboto Flex', sans-serif;
-        font-size: 2vw;
+        font-size: 7vw;
         font-weight: 500;
         margin-bottom: 30px;
     }
