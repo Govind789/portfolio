@@ -12,7 +12,7 @@ function showHome(){
         color: #bfbfbf;
     }
     .section-div-one {
-        padding: 120px 0% 165px 0px;
+        padding: 120px 20% 165px 0px;
     }
     
     .section-div-one h3{
@@ -193,10 +193,10 @@ function showWork(){
 
     
     <p>5. I Have made a Health Management System using Python.</p>
-    <p>Link to the Website: <a href="https://github.com/Govind789/Health-Management-System.git"> HEALTH MANAGEMENT SYSTEM </a></p>
+    <p>Link to the Repository: <a href="https://github.com/Govind789/Health-Management-System.git"> HEALTH MANAGEMENT SYSTEM </a></p>
 
     <p>6. I Have made a Find Number Game using Python.</p>
-    <p>Link to the Website: <a href="https://github.com/Govind789/find-the-number.git"> FIND THE NUMBER </a></p>
+    <p>Link to the Repository: <a href="https://github.com/Govind789/find-the-number.git"> FIND THE NUMBER </a></p>
 
     </div>
     <style>
