@@ -34,6 +34,66 @@ function showHome(){
         margin-bottom: 20px;
         color: #bfbfbf;
     }
+    @media (max-width: 800px) {   
+        .header-div-one ul li a{
+            font-size: 16px;
+        };
+    
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+    }
+    @media  (max-width: 706px) {
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+        
+        .checkbtn{
+            display: block;
+            background-color: black;
+            width: 100vw;
+            text-align: center;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 45px;
+            left: -400%;
+            text-align: center;
+            transition: all .5s;
+        }
+        
+        .header-div-one ul li a{
+            font-size: 20px;
+        }
+        a:hover,a.active{
+            background: none;
+            color: #e67e22;
+    
+        }
+        #check:checked ~ ul{
+            left: 0;
+            background: #2c3e50;
+            display: block;
+            line-height: 60px;
+            height: 100vh;
+        }
+        body{
+            background-image:url(16515627454271.png);
+            background-repeat:no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            height: calc(100vh - 0px);
+            font-size: 2vh;
+        }
+        .section-div-one h3 {
+            font-family: 'Roboto Flex', sans-serif;
+            font-size: 7vw;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+    }
     </style>`
 }
 
@@ -65,6 +125,65 @@ function showAbout(){
         margin-bottom: 20px;
         color: #bfbfbf;
     }
+    @media (max-width: 800px) {   
+        .header-div-one ul li a{
+            font-size: 16px;
+        };
+    
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+    }
+    @media  (max-width: 706px) {
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+        .checkbtn{
+            display: block;
+            background-color: black;
+            width: 100vw;
+            text-align: center;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 45px;
+            left: -400%;
+            text-align: center;
+            transition: all .5s;
+        }
+        
+        .header-div-one ul li a{
+            font-size: 20px;
+        }
+        a:hover,a.active{
+            background: none;
+            color: #e67e22;
+    
+        }
+        #check:checked ~ ul{
+            left: 0;
+            background: #2c3e50;
+            display: block;
+            line-height: 60px;
+            height: 100vh;
+        }
+        body{
+            background-image:url(16515627454271.png);
+            background-repeat:no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            height: calc(100vh - 0px);
+            font-size: 2vh;
+        }
+        .section-div-one h3 {
+            font-family: 'Roboto Flex', sans-serif;
+            font-size: 7vw;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+    }
     </style>`
 }
 
@@ -87,10 +206,10 @@ function showWork(){
 
     
     <p>5. I Have made a Health Management System using Python.</p>
-    <p>Link to the Repository: <a href="https://github.com/Govind789/Health-Management-System.git"> HEALTH MANAGEMENT SYSTEM </a></p>
+    <p>Link to the Website: <a href="https://github.com/Govind789/Health-Management-System.git"> HEALTH MANAGEMENT SYSTEM </a></p>
 
     <p>6. I Have made a Find Number Game using Python.</p>
-    <p>Link to the Repository: <a href="https://github.com/Govind789/find-the-number.git"> FIND THE NUMBER </a></p>
+    <p>Link to the Website: <a href="https://github.com/Govind789/find-the-number.git"> FIND THE NUMBER </a></p>
 
     </div>
     <style>
@@ -118,47 +237,67 @@ function showWork(){
         margin-bottom: 20px;
         color: #bfbfbf;
     }
+    @media (max-width: 800px) {   
+        .header-div-one ul li a{
+            font-size: 16px;
+        };
+    
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+    }
+    @media  (max-width: 706px) {
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+        .checkbtn{
+            display: block;
+            background-color: black;
+            width: 100vw;
+            text-align: center;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 45px;
+            left: -400%;
+            text-align: center;
+            transition: all .5s;
+        }
+        
+        .header-div-one ul li a{
+            font-size: 20px;
+        }
+        a:hover,a.active{
+            background: none;
+            color: #e67e22;
+    
+        }
+        #check:checked ~ ul{
+            left: 0;
+            background: #2c3e50;
+            display: block;
+            line-height: 60px;
+            height: 100vh;
+        }
+        body{
+            background-image:url(16515627454271.png);
+            background-repeat:no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            height: calc(100vh - 0px);
+            font-size: 2vh;
+        }
+        .section-div-one h3 {
+            font-family: 'Roboto Flex', sans-serif;
+            font-size: 7vw;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+    }
     </style>
     `
-}
-
-function showHome(){
-    document.getElementById("hometext").innerHTML = `
-    <h3>Hi, I'm Govind.</h3>
-    <h1>Designer. Product Person.</h1>
-    <p>
-        Multidisciplinary frontend developer ,who build websites with the help of basic computer languages Html, Css, JavaScript.
-    </p>
-    <p>Always ready for better opprtunities</p>
-    <p>Less moody in real life. ✌️</p>
-    <style>
-    .context{
-        color: #bfbfbf;
-    }
-    .section-div-one {
-        padding: 120px 44% 165px 0px;
-    }
-    
-    .section-div-one h3{
-        font-family: 'Roboto Flex', sans-serif;
-        font-size: 2vw;
-        font-weight: 500;
-        margin-bottom: 30px;
-    }
-    .section-div-one h1{
-        font-family: 'Radio Canada', sans-serif;
-        font-size: 4vw;
-        font-weight: 600;
-        margin-bottom: 30px;
-    }
-    .section-div-one p{
-        /* font-family: 'Radio Canada', sans-serif; */
-        font-size: 130%;
-        font-weight: 400;
-        margin-bottom: 20px;
-        color: #bfbfbf;
-    }
-    </style>`
 }
 
 function showContact(){
@@ -254,6 +393,65 @@ function showContact(){
         color: inherit;
         font: inherit;
         margin: 0;
+    }
+    @media (max-width: 800px) {   
+        .header-div-one ul li a{
+            font-size: 16px;
+        };
+    
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+    }
+    @media  (max-width: 706px) {
+        .fa-bars:before {
+            content: "\f0c9";
+        }
+        .checkbtn{
+            display: block;
+            background-color: black;
+            width: 100vw;
+            text-align: center;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 45px;
+            left: -400%;
+            text-align: center;
+            transition: all .5s;
+        }
+        
+        .header-div-one ul li a{
+            font-size: 20px;
+        }
+        a:hover,a.active{
+            background: none;
+            color: #e67e22;
+    
+        }
+        #check:checked ~ ul{
+            left: 0;
+            background: #2c3e50;
+            display: block;
+            line-height: 60px;
+            height: 100vh;
+        }
+        body{
+            background-image:url(16515627454271.png);
+            background-repeat:no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            height: calc(100vh - 0px);
+            font-size: 2vh;
+        }
+        .section-div-one h3 {
+            font-family: 'Roboto Flex', sans-serif;
+            font-size: 7vw;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
     }
     </style>`
 }
