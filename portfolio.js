@@ -12,7 +12,7 @@ function showHome(){
         color: #bfbfbf;
     }
     .section-div-one {
-        padding: 120px 34% 165px 0px;
+        padding: 120px 0% 165px 0px;
     }
     
     .section-div-one h3{
@@ -35,10 +35,6 @@ function showHome(){
         color: #bfbfbf;
     }
     @media (max-width: 800px) {   
-        .header-div-one ul li a{
-            font-size: 16px;
-        };
-    
         .fa-bars:before {
             content: "\f0c9";
         }
@@ -61,7 +57,7 @@ function showHome(){
             top: 45px;
             left: -400%;
             text-align: center;
-            transition: all .5s;
+            transition: transform 400ms ease 0s;
         }
         
         .header-div-one ul li a{
@@ -70,13 +66,12 @@ function showHome(){
         a:hover,a.active{
             background: none;
             color: #e67e22;
-    
         }
-        #check:checked ~ ul{
+        #check:checked ~ ul {
             left: 0;
             background: #2c3e50;
             display: block;
-            line-height: 60px;
+            line-height: 90px;
             height: 100vh;
         }
         body{
@@ -87,22 +82,27 @@ function showHome(){
             height: calc(100vh - 0px);
             font-size: 2vh;
         }
-        .section-div-one p {
-            font-size: 100%;
+        .section-div-one p{
+            font-size: 130%;
             font-weight: 400;
             margin-bottom: 20px;
-            color: #bfbfbf;
+            color: #e1d2d2;
+        }
+        .section-div-one h1{
+            font-family: 'Radio Canada', sans-serif;
+            font-size: 250%;
+            font-weight: 600;
+            margin-bottom: 30px;
         }
         .section-div-one h3 {
             font-family: 'Roboto Flex', sans-serif;
-            font-size: 7vw;
+            font-size: 200%;
             font-weight: 500;
             margin-bottom: 30px;
         }
         .section-div-one {
             padding: 120px 0% 165px 0px;
         }
-        
     }
     </style>`
 }
@@ -136,9 +136,6 @@ function showAbout(){
         color: #bfbfbf;
     }
     @media (max-width: 800px) {   
-        .header-div-one ul li a{
-            font-size: 16px;
-        }
         .section-div-one {
             padding: 120px 0% 165px 0px;
         }
@@ -154,15 +151,22 @@ function showAbout(){
         .fa-bars:before {
             content: "\f0c9";
         }
+        #check:checked ~ ul {
+            left: 0;
+            background: #2c3e50;
+            display: block;
+            line-height: 90px;
+            height: 100vh;
+        }
         .section-div-two p {
-            font-size: 100%;
+            font-size: 130%;
             font-weight: 300;
             margin-bottom: 20px;
-            color: #bfbfbf;
+            color: #e1d2d2;
         }
         .section-div-two h1 {
             font-family: 'Roboto', sans-serif;
-            font-size: 7vw;
+            font-size: 300%;
             font-weight: 700;
             margin-bottom: 30px;
         }
@@ -248,18 +252,18 @@ function showWork(){
             top: 45px;
             left: -400%;
             text-align: center;
-            transition: all .5s;
+            transition: transform 400ms ease 0s;
         }
         a:hover,a.active{
             background: none;
             color: #e67e22;
     
         }
-        #check:checked ~ ul{
+        #check:checked ~ ul {
             left: 0;
             background: #2c3e50;
             display: block;
-            line-height: 60px;
+            line-height: 90px;
             height: 100vh;
         }
         body{
@@ -272,16 +276,16 @@ function showWork(){
         }
         .section-div-three h1 {
             font-family: 'Roboto', sans-serif;
-            font-size: 7vw;
+            font-size: 300%;
             font-weight: 700;
             margin-bottom: 30px;
         }
         .section-div-three p {
             text-decoration: none;
-            font-size: 100%;
+            font-size: 130%;
             font-weight: 300;
             margin-bottom: 20px;
-            color: #bfbfbf;
+            color: #e1d2d2;
             display: inline-block;
         }
     }
@@ -383,6 +387,14 @@ function showContact(){
         font: inherit;
         margin: 0;
     }
+    .header-div-one ul{
+        list-style: none;
+        display: float;
+        height: 45px;
+        width: 156%;
+        background-color: rgba(12, 9, 9, 0.938);
+    }
+    
     @media (max-width: 800px) {
         .fa-bars:before {
             content: "\f0c9";
@@ -405,18 +417,13 @@ function showContact(){
             top: 45px;
             left: -400%;
             text-align: center;
-            transition: all .5s;
+            transition: transform 400ms ease 0s;
         }
-        a:hover,a.active{
-            background: none;
-            color: #e67e22;
-    
-        }
-        #check:checked ~ ul{
+        #check:checked ~ ul {
             left: 0;
             background: #2c3e50;
             display: block;
-            line-height: 60px;
+            line-height: 90px;
             height: 100vh;
         }
         body{
@@ -431,11 +438,11 @@ function showContact(){
             font-size: 100%;
             font-weight: 300;
             margin-bottom: 20px;
-            color: #bfbfbf;
+            color: #e1d2d2;
         }
         .section-div-four h1 {
             font-family: 'Roboto', sans-serif;
-            font-size: 7vw;
+            font-size: 300%;
             font-weight: 700;
             margin-bottom: 30px;
         }
