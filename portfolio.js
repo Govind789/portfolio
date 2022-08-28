@@ -87,12 +87,22 @@ function showHome(){
             height: calc(100vh - 0px);
             font-size: 2vh;
         }
+        .section-div-one p {
+            font-size: 100%;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: #bfbfbf;
+        }
         .section-div-one h3 {
             font-family: 'Roboto Flex', sans-serif;
             font-size: 7vw;
             font-weight: 500;
             margin-bottom: 30px;
         }
+        .section-div-one {
+            padding: 120px 0% 165px 0px;
+        }
+        
     }
     </style>`
 }
@@ -128,59 +138,32 @@ function showAbout(){
     @media (max-width: 800px) {   
         .header-div-one ul li a{
             font-size: 16px;
-        };
+        }
+        .section-div-one {
+            padding: 120px 0% 165px 0px;
+        }
     
         .fa-bars:before {
             content: "\f0c9";
         }
     }
-    @media  (max-width: 706px) {
+    @media  (max-width: 706px)
+        .section-div-one {
+            padding: 120px 0% 165px 0px;
+        }
         .fa-bars:before {
             content: "\f0c9";
         }
-        .checkbtn{
-            display: block;
-            background-color: black;
-            width: 100vw;
-            text-align: center;
+        .section-div-two p {
+            font-size: 100%;
+            font-weight: 300;
+            margin-bottom: 20px;
+            color: #bfbfbf;
         }
-        ul{
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            top: 45px;
-            left: -400%;
-            text-align: center;
-            transition: all .5s;
-        }
-        
-        .header-div-one ul li a{
-            font-size: 20px;
-        }
-        a:hover,a.active{
-            background: none;
-            color: #e67e22;
-    
-        }
-        #check:checked ~ ul{
-            left: 0;
-            background: #2c3e50;
-            display: block;
-            line-height: 60px;
-            height: 100vh;
-        }
-        body{
-            background-image:url(16515627454271.png);
-            background-repeat:no-repeat;
-            background-attachment: fixed; 
-            background-size: cover;
-            height: calc(100vh - 0px);
-            font-size: 2vh;
-        }
-        .section-div-one h3 {
-            font-family: 'Roboto Flex', sans-serif;
+        .section-div-two h1 {
+            font-family: 'Roboto', sans-serif;
             font-size: 7vw;
-            font-weight: 500;
+            font-weight: 700;
             margin-bottom: 30px;
         }
     }
@@ -190,7 +173,7 @@ function showAbout(){
 function showWork(){
     document.getElementById("hometext").innerHTML = `
     <div class="section-div-three">
-    <h1>From Customer Associate to virtual worlds.</h1>
+    <h1>Web Developer.</h1>
     <p>Mostly a trip down memory lane. To be expanded one day.</p>
     <p>1. I Have made this portfolio using Html, Css, JavaScript.</p>
     <p>Link to the Website: <a href="https://govind789.github.io/portfolio/">PORTFOLIO</a></p>
@@ -238,17 +221,19 @@ function showWork(){
         color: #bfbfbf;
     }
     @media (max-width: 800px) {   
-        .header-div-one ul li a{
-            font-size: 16px;
-        };
-    
         .fa-bars:before {
             content: "\f0c9";
+        }
+        .section-div-one {
+            padding: 120px 0% 165px 0px;
         }
     }
     @media  (max-width: 706px) {
         .fa-bars:before {
             content: "\f0c9";
+        }
+        .section-div-one {
+            padding: 120px 0% 165px 0px;
         }
         .checkbtn{
             display: block;
@@ -264,10 +249,6 @@ function showWork(){
             left: -400%;
             text-align: center;
             transition: all .5s;
-        }
-        
-        .header-div-one ul li a{
-            font-size: 20px;
         }
         a:hover,a.active{
             background: none;
@@ -289,11 +270,19 @@ function showWork(){
             height: calc(100vh - 0px);
             font-size: 2vh;
         }
-        .section-div-one h3 {
-            font-family: 'Roboto Flex', sans-serif;
+        .section-div-three h1 {
+            font-family: 'Roboto', sans-serif;
             font-size: 7vw;
-            font-weight: 500;
+            font-weight: 700;
             margin-bottom: 30px;
+        }
+        .section-div-three p {
+            text-decoration: none;
+            font-size: 100%;
+            font-weight: 300;
+            margin-bottom: 20px;
+            color: #bfbfbf;
+            display: inline-block;
         }
     }
     </style>
@@ -302,7 +291,7 @@ function showWork(){
 
 function showContact(){
     document.getElementById("hometext").innerHTML = `
-    <div class="section-div-two" id="abouttext">
+    <div class="section-div-four" id="abouttext">
     <h1>LET'S TALK</h1>
     <p>Get in touch via the form below, or by emailing <a href = "mailto: gvgupta789@gmail.com">Hello@Govind</a></p>
     <form class="formname">
@@ -323,16 +312,16 @@ function showContact(){
     .section-div-one {
         padding: 120px 17% 165px 0px;
     }
-    .section-div-two {
+    .section-div-four {
         padding: 0px 0% 165px 0px;
     }
-    .section-div-two h1{
+    .section-div-four h1{
         font-family: 'Roboto', sans-serif;
         font-size: 4vw;
         font-weight: 700;
         margin-bottom: 30px;
     }
-    .section-div-two p{
+    .section-div-four p{
         font-size: 130%;
         font-weight: 300;
         margin-bottom: 20px;
@@ -394,11 +383,7 @@ function showContact(){
         font: inherit;
         margin: 0;
     }
-    @media (max-width: 800px) {   
-        .header-div-one ul li a{
-            font-size: 16px;
-        };
-    
+    @media (max-width: 800px) {
         .fa-bars:before {
             content: "\f0c9";
         }
@@ -422,10 +407,6 @@ function showContact(){
             text-align: center;
             transition: all .5s;
         }
-        
-        .header-div-one ul li a{
-            font-size: 20px;
-        }
         a:hover,a.active{
             background: none;
             color: #e67e22;
@@ -446,10 +427,16 @@ function showContact(){
             height: calc(100vh - 0px);
             font-size: 2vh;
         }
-        .section-div-one h3 {
-            font-family: 'Roboto Flex', sans-serif;
+        .section-div-four p {
+            font-size: 100%;
+            font-weight: 300;
+            margin-bottom: 20px;
+            color: #bfbfbf;
+        }
+        .section-div-four h1 {
+            font-family: 'Roboto', sans-serif;
             font-size: 7vw;
-            font-weight: 500;
+            font-weight: 700;
             margin-bottom: 30px;
         }
     }
