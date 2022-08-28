@@ -76,7 +76,7 @@ section{
     font-family: 'Radio Canada', sans-serif;
     font-size: 4vw;
     font-weight: 600;
-     margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .section-div-one p{
     font-size: 130%;
@@ -87,14 +87,21 @@ section{
 
 @media (max-width: 800px) {   
     .header-div-one ul li a{
-        font-size: 16px;
+        font-size: 20px;
     };
-    .fa-bars:before {
+    
+    .fa-bars:active,.fa-bars:before {
         content: "\f0c9";
-    };
+    }
 }
 @media  (max-width: 706px) {
-    .fa-bars:before {
+    .section-div-one {
+        padding: 120px 20% 165px 0px;
+    }
+    .header-div-one ul li a{
+        font-size: 16px;
+    };
+    .fa-bars:active,.fa-bars:before  {
         content: "\f0c9";
     }
     .checkbtn{
@@ -110,7 +117,7 @@ section{
         top: 45px;
         left: -400%;
         text-align: center;
-        transition: all .5s;
+        transition: transform 400ms ease 0s;
     }
     
     .header-div-one ul li a{
@@ -125,7 +132,7 @@ section{
         left: 0;
         background: #2c3e50;
         display: block;
-        line-height: 60px;
+        line-height: 90px;
         height: 100vh;
     }
     body{
@@ -138,8 +145,20 @@ section{
     }
     .section-div-one h3 {
         font-family: 'Roboto Flex', sans-serif;
-        font-size: 7vw;
+        font-size: 200%;
         font-weight: 500;
         margin-bottom: 30px;
+    }
+    .section-div-one h1{
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 250%;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .section-div-one p{
+        font-size: 130%;
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: #e1d2d2;
     }
 }
