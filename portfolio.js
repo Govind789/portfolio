@@ -17,7 +17,7 @@ function showHome(){
     
     .section-div-one h3{
         font-family: 'Roboto Flex', sans-serif;
-        font-size: 7vw;
+        font-size: 2vw;
         font-weight: 500;
         margin-bottom: 30px;
     }
@@ -141,7 +141,7 @@ function showHome(){
     
     .section-div-one h3{
         font-family: 'Roboto Flex', sans-serif;
-        font-size: 7vw;
+        font-size: 2vw;
         font-weight: 500;
         margin-bottom: 30px;
     }
