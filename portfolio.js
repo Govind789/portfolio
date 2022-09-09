@@ -12,7 +12,7 @@ function showHome(){
         color: #bfbfbf;
     }
     .section-div-one {
-        padding: 120px 20% 165px 0px;
+        padding: 120px 44% 165px 0px;
     }
     
     .section-div-one h3{
