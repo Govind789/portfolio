@@ -101,7 +101,7 @@ function showHome(){
             margin-bottom: 30px;
         }
         .section-div-one {
-            padding: 120px 0% 165px 0px;
+            padding: 120px 20% 165px 0px;
         }
     }
     </style>`
