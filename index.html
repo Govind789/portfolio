@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,…lic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      media="all"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+  </head>
+  <body>
+    <header class="main-one" id="content">
+      <div class="header-div-one">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <ul>
+          <li><button type="button" class="navigation-button" onclick="showContent(event)" data-id="home">Home</button></li>
+          <li><button type="button" class="navigation-button" onclick="showContent(event)" data-id="about">About</button></li>
+          <li><button type="button" class="navigation-button" onclick="showContent(event)" data-id="work">Work</button></li>
+          <li><button type="button" class="navigation-button" onclick="showContent(event)" data-id="contact">Contact</button></li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="section-div-one" id="hometext">
+        <div class="active-section home">
+          <h3>Hi, I'm Govind.</h3>
+          <h1>Designer. Product Person.</h1>
+          <p>
+            Multidisciplinary frontend developer ,who build websites with the
+            help of basic computer languages Html, Css, JavaScript.
+          </p>
+          <p>Always ready for better opprtunities</p>
+          <p>Less moody 
+            </p>
+        </div>
+        <div class="hidden about">
+            <div class="section-div-two" id="abouttext">
+            <h1>I build value by design.</h1>
+            <p>I’m Govind Gupta, but you can just call me Govind.</p>
+            <p>Originally hailing from the UttarPradesh for the last decade or so I’ve been honing my skills in design, production and management roles building products for the web, mobile, games and, more recently,A Health Management System.</p>
+            <p>I strive to create elegant solutions that surprise and delight users, while keeping complex technical dependencies in mind for implementation, scalability and developer sanity.</p>
+            <p>I’ve worked during my graduation time with the basic computer languages and made small projects.</p>
+            <p>Depending on the Myself, resources and deliverables I’ve learned many things giving my best.</p>
+            <p>I also occasionally give talks on design and product development.</p>
+            <p>Have an interesting project? Let's talk.</p>
+            </div>
+            <p>in real life. ✌️</p>
+        </div>
+        <div class="hidden work">
+          <div class="section-div-three">
+            <h1>Web Developer.</h1>
+            <p>Mostly a trip down memory lane. To be expanded one day.</p>
+            <p>1. I Have made this portfolio using Html, Css, JavaScript.</p>
+            <p>Link to the Website: <a href="https://govind789.github.io/portfolio/">PORTFOLIO</a></p>
+        
+            <p>2. I Have made a Basic Calculator using Html, Css, JavaScript.</p>
+            <p>Link to the Website: <a href="https://govind789.github.io/Calculator/"> CALCULATOR</a></p>
+        
+            <p>3. I Have a Random Password Generator using Html, Css, JavaScript.</p>
+            <p>Link to the Website: <a href="https://govind789.github.io/random-password/"> RANDOM PASSWORD GENERATOR</a></p>
+        
+            <p>4. I Have made a Weather App using Html, Css, JavaScript.</p>
+            <p>Link to the Website: <a href="https://govind789.github.io/weather-app/"> WEATHER APP </a></p>
+        
+            
+            <p>5. I Have made a Health Management System using Python.</p>
+            <p>Link to the Repository: <a href="https://github.com/Govind789/Health-Management-System.git"> HEALTH MANAGEMENT SYSTEM </a></p>
+        
+            <p>6. I Have made a Find Number Game using Python.</p>
+            <p>Link to the Repository: <a href="https://github.com/Govind789/find-the-number.git"> FIND THE NUMBER </a></p>
+        
+            </div>
+        </div>
+        <div class="hidden contact">
+          <div class="section-div-four" id="abouttext">
+            <h1>LET'S TALK</h1>
+            <p>Get in touch via the form below, or by emailing <a href = "mailto: gvgupta789@gmail.com">Hello@Govind</a></p>
+            <form class="formname">
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname" class="form-input w-input" placeholder="Enter your name"><br><br>
+                <label for="lname">Email Address:</label>
+                <input type="email" id="mail" name="mail" class="form-input w-input" placeholder="Enter your email address"><br><br>
+                <label for="lname">Message:</label>
+                <textarea id="Message-2" placeholder="Enter your message" maxlength="5000" required class="form-input form-message w-input"></textarea>
+                <input type="submit" value="Submit" class="form-submit w-button">
+            </form>
+            </div>
+        </div>
+      </div>
+    </section>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
