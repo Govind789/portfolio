@@ -28,8 +28,12 @@
     <header class="main-one" id="content">
       <div class="header-div-one">
         <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fa fa-bars"></i>
+        <label for="check" class="checkbtn" onclick="rotateBtn(event)">
+          <div class="box">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
         </label>
         <ul>
           <li><button type="button" class="navigation-button" onclick="showContent(event)" data-id="home">Home</button></li>
@@ -69,55 +73,53 @@
             <div class="container text-center">
               <div class="row row-cols-2">
                 <div class="row row-cols-2">
-                  <img src="react.png" alt="">
+                  <img src="./resources/images/react.png" alt="">
                   <p>React Js</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="js.png" alt="">
+                  <img src="./resources/images/js.png" alt="">
                   <p>Js</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="html.png" alt="">
+                  <img src="./resources/images/html.png" alt="">
                   <p>HTML</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="css.png" alt="">
+                  <img src="./resources/images/css.png" alt="">
                   <p>CSS</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="Python.png" alt="">
+                  <img src="./resources/images/Python.png" alt="">
                   <p>Python</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="c.png" alt="">
+                  <img src="./resources/images/c.png" alt="">
                   <p>C</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="figma.png" alt="">
+                  <img src="./resources/images/figma.png" alt="">
                   <p>Figma</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="github.png" alt="">
+                  <img src="./resources/images/github.png" alt="">
                   <p>GitHub</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="bootstrap.jpeg" alt="">
+                  <img src="./resources/images/bootstrap.jpeg" alt="">
                   <p>BootStrap</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="mysql.png" alt="">
+                  <img src="./resources/images/mysql.png" alt="">
                   <p>MySQL</p>
                 </div>
                 <div class="row row-cols-2">
-                  <img src="vscode.png" alt="">
+                  <img src="./resources/images/vscode.png" alt="">
                   <p>VS Code</p>
                 </div>
               </div>
             </div>
-            <div class="edu">
               <h2>My Education</h2>
               <p>Education is the passport to the future, for tomorrow belongs to those who prepare for it today</p>
-              <div class="college-1">
                 <div class="container text-center">
                   <div class="col-sm-9 p-3">
                     <img src="./resources/images/kiet.png" alt="" style="height: 50%;width: 85%;">
@@ -137,7 +139,6 @@
                     </div> 
                   </div>
                 </div>
-              </div>
             </div>
         </div>
         <div class="hidden work">
@@ -150,18 +151,21 @@
             <p>2. I Have made a Basic Calculator using Html, Css, JavaScript.</p>
             <p>Link to the Website: <a href="https://govind789.github.io/Calculator/"> CALCULATOR</a></p>
         
-            <p>3. I Have a Face Detecting System</p>
-            <p>Link to the Code: <a href="https://github.com/Govind789/Detect-face">Detect Object</a></p>
+            <p>3. I Have a Face Detecting System.</p>
+            <p>Link to the Repository: <a href="https://github.com/Govind789/Detect-face">DETECT OBJECT</a></p>
         
             <p>4. I Have made a Weather App using Html, Css, JavaScript.</p>
-            <p>Link to the Website: <a href="https://govind789.github.io/weather-app/"> WEATHER APP </a></p>
+            <p>Link to the Website: <a href="https://govind789.github.io/weather-app/">WEATHER APP </a></p>
         
             
             <p>5. I Have made a Health Management System using Python.</p>
-            <p>Link to the Repository: <a href="https://github.com/Govind789/Health-Management-System.git"> HEALTH MANAGEMENT SYSTEM </a></p>
+            <p>Link to the Repository: <a href="https://github.com/Govind789/Health-Management-System.git">HEALTH MANAGEMENT SYSTEM </a></p>
         
             <p>6. I Have made a Find Number Game using Python.</p>
-            <p>Link to the Repository: <a href="https://github.com/Govind789/find-the-number.git"> FIND THE NUMBER </a></p>
+            <p>Link to the Repository: <a href="https://github.com/Govind789/find-the-number.git">FIND THE NUMBER </a></p>
+
+            <p>7. I Have made Some JavaScript Programs.</p>
+            <p>Link to the Website: <a href="https://govind789.github.io/Lab/">JAVASCRIPT PROGRAMS </a></p>
         
             </div>
         </div>
@@ -169,19 +173,20 @@
           <div class="section-div-four" id="abouttext">
             <h1>LET'S TALK</h1>
             <p>Get in touch via the form below, or by emailing <a href = "mailto: gvgupta789@gmail.com">Hello@Govind</a></p>
-            <form class="formname">
+            <form class="formname" id="form">
                 <label for="fname">Name:</label>
                 <input type="text" id="fname" name="fname" class="form-input w-input" placeholder="Enter your name"><br><br>
                 <label for="lname">Email Address:</label>
                 <input type="email" id="mail" name="mail" class="form-input w-input" placeholder="Enter your email address"><br><br>
                 <label for="lname">Message:</label>
                 <textarea id="Message-2" placeholder="Enter your message" maxlength="5000" required class="form-input form-message w-input"></textarea>
-                <input type="submit" value="Submit" class="form-submit w-button" onclick="checkMail()">
+                <input type="submit" class="form-submit w-button">
             </form>
             </div>
         </div>
       </div>
     </section>
     <script src="portfolio.js"></script>
+    <!-- <script type="module" src="json.js"></script> -->
   </body>
 </html>

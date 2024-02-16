@@ -8,7 +8,7 @@
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-image:url(1651562745427.png);
+    background-image:url(./resources/images/1651562745427.png);
     background-repeat:no-repeat;
     background-attachment: fixed; 
     background-size: cover;
@@ -56,7 +56,7 @@ button:hover,a:hover{
 .checkbtn{
     font-size: 30px;
     color: white;
-    line-height: 8vh;
+    line-height: 6vh;
     float: right;
     display: none;
     cursor: pointer;
@@ -267,8 +267,8 @@ button, input, optgroup, select, textarea {
         font-size: 20px;
     };
     
-    .fa-bars:active,.fa-bars:before {
-        content: "\f0c9";
+    .fa-minus:active,.fa-minus:before {
+        content: "\f068";
     }
     .header-div-one{
         text-align: center;
@@ -298,14 +298,33 @@ button, input, optgroup, select, textarea {
         align-items: center;
         color: white;
     }
-    .fa-bars:active,.fa-bars:before  {
-        content: "\f0c9";
+    .fa-minus:active,.fa-minus:before  {
+        content: "\f068";
+    }
+    .box{
+        z-index: 1;
     }
     .checkbtn{
         display: block;
-        background-color: black;
-        width: 100vw;
-        margin: 0px 40px;
+        margin: 12px;
+        position: relative;
+        z-index: 2;
+    }
+    .line1,.line2,.line3{
+        width: 30px;
+        height: 4px;
+        margin: 6px 1px;
+        background-color: #e1d2d2;
+        border-radius: 50px;
+    }
+    .myactive .line1{
+        transform: translate(0px,10px)rotate(45deg);
+    }
+    .myactive .line2{
+        opacity: 0;
+    }
+    .myactive .line3{
+        transform: translate(0px,-10px)rotate(-45deg);
     }
     ul{
         position: fixed;
@@ -321,7 +340,8 @@ button, input, optgroup, select, textarea {
     }
     #check:checked ~ ul{
         left: 0;
-        background: #2c3e50;
+        opacity: 0.95;
+        background: #000;
         display: block;
         line-height: 90px;
         height: 100vh;
@@ -344,7 +364,7 @@ button, input, optgroup, select, textarea {
         cursor: pointer;
     }
     body{
-        background-image:url(16515627454271.png);
+        background-image:url(./resources/images/16515627454271.png);
         background-repeat:no-repeat;
         background-attachment: fixed; 
         background-size: cover;
@@ -386,7 +406,11 @@ button, input, optgroup, select, textarea {
         font-size: unset;
         font-weight: unset;
         margin-bottom: 0px;
-    }y
+    }
+    .container img{
+        width: -webkit-fill-available;
+        height: fit-content;
+    }
     
     .section-div-three {
         padding: 0;
