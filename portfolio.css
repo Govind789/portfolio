@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +22,7 @@ body{
     background-color: rgba(12, 9, 9, 0.938);
     width: 100%;
     height: 45px;
+    padding-top: 15px;
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
@@ -160,6 +162,7 @@ section{
 .section-div-three {
     /* padding: 0px 17% 165px 0px; */
     width: 50vw;
+    padding-bottom: 20px;
 }
 .section-div-three h1{
     font-family: 'Roboto', sans-serif;
@@ -173,7 +176,7 @@ section{
     font-weight: 300;
     margin-bottom: 20px;
     color: #bfbfbf;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .section-div-three span{
     float: left;
@@ -225,7 +228,7 @@ a:active,a:hover{
     width: 100%;
     height: 38px;
     padding: 8px 12px;
-    margin-bottom: 10px;
+    margin: 9px 10px;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -263,9 +266,9 @@ button, input, optgroup, select, textarea {
 /* end of contact section */
 
 @media (max-width: 952px) {   
-    .header-div-one ul li button{
+    /* .header-div-one ul li button{
         font-size: 20px;
-    };
+    }; */
     
     .fa-minus:active,.fa-minus:before {
         content: "\f068";
